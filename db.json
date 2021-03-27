@@ -1,8 +1,64 @@
 {
-  "resources": [
+  "Pokemon": [
     {
       "id": 1,
-      "example": "resource"
+      "name": "bulbasaur",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+      "likes": 0
+    },
+    {
+      "id": 2,
+      "name": "ivysaur",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+      "likes": 0
+    },
+    {
+      "id": 3,
+      "name": "venusaur",
+      "Image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
+      "likes": 0
+    },
+    {
+      "id": 4,
+      "name": "charmander",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+      "likes": 0
+    },
+    {
+      "id": 5,
+      "name": "charmeleon",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png",
+      "likes": 1
+    },
+    {
+      "id": 6,
+      "name": "charizard",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
+      "likes": 6
+    },
+    {
+      "id": 7,
+      "name": "squirtle",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
+      "likes": 0
+    },
+    {
+      "id": 8,
+      "name": "wartortle",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png",
+      "likes": 1
+    },
+    {
+      "id": 9,
+      "name": "blastoise",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png",
+      "likes": 2
+    },
+    {
+      "name": "Pikachu",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
+      "likes": 1,
+      "id": 10
     }
   ]
 }

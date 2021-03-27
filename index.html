@@ -1,20 +1,53 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
-    <title>Template</title>
-    <script src="index.js" type="text/javascript"></script>
-    <link rel="stylesheet" href="index.css">
+    <meta charset="utf-8" />
+    <title>Danny's Pokedex</title>
+    <link rel="stylesheet" href="/Users/danielcostelloe/code/fullstack-template-mod3/index.css" />
+    <script defer src="/Users/danielcostelloe/code/fullstack-template-mod3/index.js" type="text/javascript" ></script>
   </head>
-
   <body>
+    <div id="pokemon-header">
+      <img
+        src="/Users/danielcostelloe/code/fullstack-template-mod3/img/pokemon-logo-png-1.png"
+        alt="pokemon-header"
+        />
+      </div>
+      
+    <div class="container">
+      <form class="add-pokemon-form">
+        <h3>Caught a Pokemon?</h3>
 
-    <h1>Template</h1>
-    <!-- Feel free to alter the HTML so that it contains just the skeleton of your application -->
-    <div id="main-div">
-
+        <input
+          type="text"
+          name="name"
+          value=""
+          placeholder="Enter a Pokemon's name..."
+          class="input-text"
+        />
+        <br />
+        <input
+          type="text"
+          name="image"
+          value=""
+          placeholder="Enter a Pokemon's image URL..."
+          class="input-text"
+        />
+        <br />
+        <input
+          type="submit"
+          name="submit"
+          value="Add New Pokemon"
+          class="submit"
+        />
+      </form>
     </div>
+    <p style="text-align:center">
+      Danny's Pokedex <button id="new-pokemon-btn">Add a new Pokemon!</button>
+    </p>
 
-
+    <div id="pokemon-collection"></div>
   </body>
 </html>
+
+<!---HTML + CSS from TOY-TALES-->
